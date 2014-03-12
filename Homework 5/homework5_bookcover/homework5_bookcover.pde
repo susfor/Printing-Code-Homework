@@ -1,3 +1,5 @@
+
+
 // center of the circle
 float centerX;
 float centerY;
@@ -13,6 +15,7 @@ float radius = 100;
 
 void setup() {
   size(900, 800);
+
   background(255);
 
   centerX = width/2;
@@ -96,7 +99,7 @@ void setup() {
   noFill();
   stroke(0);
   strokeWeight(1);
-  ellipse(mouthx+20, mouthy-20, sizemouth*2.5,sizemouth*2.5);
+  ellipse(mouthx+20, mouthy-20, sizemouth*2.5, sizemouth*2.5);
 
   //fills the lip
   fillarea(mouthx+20, mouthy+25);
@@ -109,7 +112,7 @@ void setup() {
 
   //remove bottom ellipse 
   stroke(255);
-  ellipse(mouthx+20, mouthy-20, sizemouth*2.5,sizemouth*2.5);
+  ellipse(mouthx+20, mouthy-20, sizemouth*2.5, sizemouth*2.5);
 
   //add the sides to the lip
   noStroke();
@@ -120,13 +123,15 @@ void setup() {
 
   fill(255);
   ellipse(mouthx+76, mouthy-15, 31, 31);
-  ellipse(mouthx-35,mouthy-15, 31, 31);
+  ellipse(mouthx-35, mouthy-15, 31, 31);
 
   noFill();
   stroke(0);
   rect(52, 10, width-400, height-100);
 
   //diverseColor(50,10,width-400,height-100);
+
+
 }
 
 

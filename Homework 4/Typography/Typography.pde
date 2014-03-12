@@ -4,7 +4,7 @@ float amp = 100;
 int ellipssize = 20;
 void setup() {
 
-  size(1000, 600,PDF, "typography1.pdf");
+  size(1000, 600,PDF, "typography2.pdf");
   background(255);
   fill(0);
 }
@@ -13,7 +13,7 @@ void draw() {
   translate(30, 0);
   W();
   a();
-  w();
+  v();
   e();
   s();
   
@@ -53,12 +53,12 @@ void a() {
   }
 }
 
-void w() {
+void v() {
   translate(60, 65 );
   float t = 0;
   float y;
 
-  for (int i = 0; i < 126; i++) {
+  for (int i = 0; i < 64; i++) {
     y = -cos(2*t)*amp/2;
     ellipse(i, y, ellipssize, ellipssize);
     t += 0.05;
@@ -66,7 +66,7 @@ void w() {
 }
 
 void e() {
-  translate(215, -65);
+  translate(152, -65);
   float t = 0;
   float x;
   for (int i = 0; i <95; i++) {
