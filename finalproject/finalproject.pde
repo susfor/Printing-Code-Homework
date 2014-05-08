@@ -1,5 +1,9 @@
+//Automated Smile faces. 
+//By pressing "r" a pdf recording starts. To save a pdf image press "r" then "q" to stop
+
 import processing.pdf.*;
 boolean recording;
+
 PGraphicsPDF pdf;
 Smile smile1;
 
@@ -16,13 +20,6 @@ void setup() {
   colorMode(HSB, 360, 100, 100);
   count = 0;
 
-
-
-
-  //MOVE THIS PART BACK TO DRAW FOR ON SCREEN FACES
-
-
-  //exit();
 }
 
 
